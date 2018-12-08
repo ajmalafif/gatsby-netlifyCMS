@@ -7,14 +7,16 @@ navtitle: Home
 tags:
   - nav
 ---
-# Welcome
 
-This is a template for building a simple blog website with the [Eleventy static site generator](https://www.11ty.io), with deployment to [Netlify](https://www.netlify.com).
-
-Includes [Netlify CMS](https://www.netlifycms.org) for WYSIWYG content editing, and [Netlify Forms](https://www.netlify.com/docs/form-handling) for processing your site's form data.
-
-For more info on installation and usage, view the project repo on [Github]({{ pkg.repository.url }}).
-
-Or click the button below to deploy your own copy of this project to Netlify.
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/danurbanowicz/eleventy-netlify-boilerplate&stack=cms)
+<section class="wrap w-100 vh-100 dt">
+  <article class="cf v-mid dtc">
+    <div class="fl w-100 w-50-ns tc tl-ns pb4">
+      <h1 class="mb1 mt0">Welcome</h1>
+      <p class="moon-gray mt0">Ajmal Afif's personal website</p>
+    </div>
+    <div class="fl w-100 w-50-ns ph4 ph0-ns">
+      <h3 class="mt0 mb0">Hi, I'm Ajmal 👋🏼</h3>
+      <p>I am a digital designer that codes and learn every single day. </p><a class="link br2 ph4 pv3 dib white bg-primary db w-100 w-auto-ns tc" href="/work">View work</a><a class="link br2 ph4 pv3 mt2 ml3-ns dib blue bg-white w-100 tc w-auto-ns bg-secondary bs-secondary br-secondary" href="#0">Contact me</a>
+    </div>
+  </article>
+</section>
