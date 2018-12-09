@@ -3,7 +3,17 @@ layout: layouts/base.njk
 section: blog
 permalink: /blog/index.html
 ---
-<h1>{{ title }}</h1>
+<section class="w-100 mt4 mt5-ns">
+  <article class="mt6 wrap dt bb b--light-gray">
+    <div class="fl w-100 w-50-ns tc tl-ns pb0 pb4-ns">
+      <h1 class="mb1 mt0">Blog</h1>
+      <p class="moon-gray mt0">Random findings & thoughts</p>
+    </div>
+    <div class="fl w-100 w-50-ns ph4 ph0-ns lh-copy">
+      <p>I enjoy writing down and reflect on my experience. My goal is to write more about design, frontend and anything in between.</p>
+    </div>
+  </article>
+</section>
 
 {{ layoutContent | safe }}
 

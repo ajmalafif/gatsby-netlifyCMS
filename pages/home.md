@@ -1,11 +1,10 @@
 ---
 layout: layouts/home.njk
-title: Home
+title: Home | Ajmal Afif
 date: 2016-01-01T00:00:00.000Z
 permalink: /
 navtitle: Home
 tags:
-  - nav
 ---
 
 <section class="wrap w-100 vh-100 dt">

@@ -4,11 +4,8 @@
 	{% include "components/head.njk" %}
 
 	<body>
-
-		{% include "components/nav.njk" %}
-
-		{{ layoutContent | safe }}
-
+    {% include "components/nav-homepage.njk" %}
+    {{ layoutContent | safe }}
 	</body>
 
 </html>

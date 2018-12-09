@@ -8,20 +8,18 @@ date: 2017-01-01
 permalink: /about/index.html
 ---
 
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
-
-## Our services
-
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
-
-### Blue-sky thinking
-
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
-
-#### Management frameworks
-
-Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
-
-##### Regulatory convergence
-
-Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+<section class="w-100 mt4 mt5-ns">
+  <article class="mt6 db wrap">
+    <div class="fl w-100 w-50-ns tc tl-ns pb0 pb4-ns">
+      <h1 class="mb1 mt0">About me</h1>
+      <p class="moon-gray mt0">Ajmal Afif</p>
+    </div>
+    <div class="fl w-100 w-50-ns ph4 ph0-ns lh-copy">
+      <p>One of my life goals is to create a fulfilling and balanced lifestyle, and extend it to people I love and care the most.</p>
+      <p>I went to Pennsylvania State University, State College for college and have a degree in Actuarial Science.</p>
+      <p>Ever since I found my passion few years back, I have never stop learning and never intend to. So for 2018, here is my ongoing list of things to learn.</p>
+      <p>I’m a UI/UX Designer with 8 years experience as a frontend developer. I spend most of my leisure time learning new things that are foreign and new to me.</p>
+      <p>I see myself as a journeyman that is always pursuing mastery by putting my knowledge into practice. I believe the best way to learn is by doing and also teaching.  </p>
+    </div>
+  </article>
+</section>
