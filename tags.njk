@@ -13,12 +13,12 @@ layout: layouts/base.njk
 ---
 
 <section class="w-100 mt4 mt5-ns">
-<h1 class="mt6 wrap">Posts tagged as “{{ tag }}”</h1>
+<h1 class="mt6 wrap ph4 ph0-ns">Posts tagged as “{{ tag }}”</h1>
 </section>
 
 {% set postslist = collections[ tag ] %}
 {% include "components/postslist.njk" %}
 
-<nav class="pb6 wrap">
+<nav class="pb6 wrap ph4 ph0-ns">
   <a class="blue" href="{{ '/blog/' | url }}">← Back to blog</a>
 </nav>
