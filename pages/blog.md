@@ -1,6 +1,6 @@
 ---
 layout: layouts/blog.njk
-title: Blog
+title: Blog | @ajmalafif
 tags:
   - nav
 navtitle: Blog

@@ -3,29 +3,36 @@ layout: layouts/base.njk
 section: post
 ---
 
-<article>
-  <h1>{{ title }}</h1>
-  <p>
-    <small>
-      <time datetime="{{ date | machineDate }}">{{ date | readableDate }}</time> by {{ metadata.author.name }}
-    </small>
-  </p>
+<article class="mb6">
 
-  {{ layoutContent | safe }}
+  <div class=" wrap tc">
+    <h1 class=" tc mt4 mt5-ns mb3">{{ title }}</h1>
+      <small class="gray">
+        <time datetime="{{ date | machineDate }}">{{ date | readableDate }}</time> by {{ metadata.author.name }}
+      </small>
+  </div>
 
-  {% if tags %}
-    <p>
-    {% for tag in tags %}
-      {%- if tag != "post" -%}
-        {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-        <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
-      {%- endif -%}
-    {% endfor %}
-    </p>
-  {% endif %}
+  <div class=" wrap mw12 pa3 pa0-ns">
+    <div class=" center measure-wide lh-copy">
+      {{ layoutContent | safe }}
+
+        {% if tags %}
+          <p class="moon-gray">
+          This post is tagged under:
+          {% for tag in tags %}
+            {%- if tag != "post" -%}
+              {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+              <a class="gray" href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+            {%- endif -%}
+          {% endfor %}
+          </p>
+        {% endif %}
+
+          <nav>
+            <a class="blue" href="{{ '/blog/' | url }}">← Back to blog</a>
+          </nav>
+
+    </div>
+  </div>
 
 </article>
-
-<nav>
-  <a href="{{ '/blog/' | url }}">← Blog index</a>
-</nav>

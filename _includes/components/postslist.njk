@@ -5,7 +5,7 @@
 				<h3 class="lh-title mb1 blue">
 					<a class="link" href="{{ post.url | url }}">
 						{% if post.data.title %}
-							{{ post.data.title }}
+							{{ post.data.title }} →
 						{% else %}
 							Untitled
 						{% endif %}
@@ -24,7 +24,7 @@
 						{% for tag in post.data.tags %}
 							{%- if tag != "post" -%}
 								{% set tagUrl %}/tags/{{ tag }}/{% endset %}
-							<a class="link moon-gray f6" href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+							<a class="moon-gray f6" href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
 							{%- endif -%}
 						{% endfor %}
 					</span>

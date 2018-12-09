@@ -14,6 +14,10 @@ h3 {
   font-weight: normal;
 }
 
+article .link:visited {
+  color: #0055ff;
+}
+
 nav .active {
   color: #05f;
   font-weight: bold;

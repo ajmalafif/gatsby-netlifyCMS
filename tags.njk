@@ -12,11 +12,13 @@ permalink: /tags/{{ tag }}/
 layout: layouts/base.njk
 ---
 
-<h1>Tagged “{{ tag }}”</h1>
+<section class="w-100 mt4 mt5-ns">
+<h1 class="mt6 wrap">Posts tagged as “{{ tag }}”</h1>
+</section>
 
 {% set postslist = collections[ tag ] %}
 {% include "components/postslist.njk" %}
 
-<nav>
-  <a href="{{ '/blog/' | url }}">← Blog index</a>
+<nav class="pb6 wrap">
+  <a class="blue" href="{{ '/blog/' | url }}">← Back to blog</a>
 </nav>

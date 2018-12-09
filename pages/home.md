@@ -1,6 +1,6 @@
 ---
 layout: layouts/home.njk
-title: Home | Ajmal Afif
+title: Home | @ajmalafif
 date: 2016-01-01T00:00:00.000Z
 permalink: /
 navtitle: Home
@@ -15,7 +15,7 @@ tags:
     </div>
     <div class="fl w-100 w-50-ns ph4 ph0-ns">
       <h3 class="mt0 mb0">Hi, I'm Ajmal 👋🏼</h3>
-      <p>I am a digital designer that codes and learn every single day. </p><a class="link br2 ph4 pv3 dib white bg-primary db w-100 w-auto-ns tc" href="/work">View work</a><a class="link br2 ph4 pv3 mt2 ml3-ns dib blue bg-white w-100 tc w-auto-ns bg-secondary bs-secondary br-secondary" href="#0">Contact me</a>
+      <p>I am a digital designer that codes and learn every single day. </p><a class="link br2 ph4 pv3 dib white bg-primary db w-100 w-auto-ns tc" href="/work">View work</a><a class="link br2 ph4 pv3 mt2 ml3-ns dib blue bg-white w-100 tc w-auto-ns bg-secondary bs-secondary br-secondary" href="/about">Contact me</a>
     </div>
   </article>
 </section>
