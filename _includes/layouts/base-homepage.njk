@@ -3,7 +3,7 @@
 
 	{% include "components/head.njk" %}
 
-	<body>
+	<body{% if section %} class="{{ section }}"{% endif %}>
     {% include "components/nav-homepage.njk" %}
     {{ layoutContent | safe }}
 	</body>

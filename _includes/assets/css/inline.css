@@ -14,13 +14,16 @@ h3 {
   font-weight: normal;
 }
 
-article .link:visited {
-  color: #0055ff;
+header a[data-current*="current"] {
+  color: #05f;
+  font-weight: 600;
 }
 
-nav .active {
+nav a:hover,
+.blog article a:hover,
+.blog article a.link:hover,
+.post article a:hover {
   color: #05f;
-  font-weight: bold;
 }
 
 nav li:last-child {
@@ -51,6 +54,11 @@ ul {
   position: relative;
   margin: 0 auto;
   max-width: 980px;
+}
+
+.blog article .link,
+.blog article .link:visited {
+  color: #000;
 }
 
 .logo {

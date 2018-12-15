@@ -3,7 +3,7 @@
 		<article class="wrap" {% if post.url == url %} data-current="current item"{% endif %}>
 			<div class="w-70-ns ph4 ph0-ns mb5">		
 				<h3 class="lh-title mb1 blue">
-					<a class="link" href="{{ post.url | url }}">
+					<a class="link fw6" href="{{ post.url | url }}">
 						{% if post.data.title %}
 							{{ post.data.title }} →
 						{% else %}

@@ -7,15 +7,4 @@ navtitle: Home
 tags:
 ---
 
-<section class="wrap w-100 vh-100 dt">
-  <article class="cf v-mid dtc">
-    <div class="fl w-100 w-50-ns tc tl-ns pb4">
-      <h1 class="mb1 mt0">Welcome</h1>
-      <p class="moon-gray mt0">Ajmal Afif's personal website</p>
-    </div>
-    <div class="fl w-100 w-50-ns ph4 ph0-ns">
-      <h3 class="mt0 mb0">Hi, I'm Ajmal 👋🏼</h3>
-      <p>I am a digital designer that codes and learn every single day. </p><a class="link br2 ph4 pv3 dib white bg-primary db w-100 w-auto-ns tc" href="/work">View work</a><a class="link br2 ph4 pv3 mt2 ml3-ns dib blue bg-white w-100 tc w-auto-ns bg-secondary bs-secondary br-secondary" href="/about">Contact me</a>
-    </div>
-  </article>
-</section>
+<p class="lh-copy">I am a <strong>digital designer</strong> by trade. Always trying to make time to <strong>code more</strong>. I really <strong>enjoy learning</strong> and naturally feel it's a very rewarding experience.</p>
