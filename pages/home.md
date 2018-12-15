@@ -7,4 +7,4 @@ navtitle: Home
 tags:
 ---
 
-<p class="lh-copy">I am a <strong>digital designer</strong> by trade. Always trying to make time to <strong>code more</strong>. I really <strong>enjoy learning</strong> and naturally feel it's a very rewarding experience.</p>
+<p class="lh-copy">I am a digital designer by trade. Always trying to make time to code more. I really enjoy learning and naturally feel it's a very rewarding experience.</p>
