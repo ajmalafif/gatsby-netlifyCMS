@@ -6,5 +6,5 @@ tags:
 navtitle: Experience
 section: experience
 date: 2015-01-01
-permalink: /work/index.html
+permalink: /experience/index.html
 ---
