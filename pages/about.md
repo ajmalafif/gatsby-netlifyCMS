@@ -9,7 +9,7 @@ date: 2017-01-01
 permalink: /about/index.html
 ---
 
-One of my life goals is to create a **fulfilling** and **balanced lifestyle**, and extend it to people I love and care the most.
+One of my life goals is to create a **fulfilling** and **balanced lifestyle**, and extend it to people I love and care for the most.
 
 I went to **Pennsylvania State University** for college and have a degree in Actuarial Science.
 
