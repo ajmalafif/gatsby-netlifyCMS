@@ -3,8 +3,8 @@ layout: layouts/work.njk
 title: Work | @ajmalafif
 tags:
   - nav
-navtitle: Work
-section: work
+navtitle: Experience
+section: experience
 date: 2015-01-01
 permalink: /work/index.html
 ---

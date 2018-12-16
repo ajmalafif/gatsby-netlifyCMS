@@ -1,11 +1,6 @@
 ---
 layout: layouts/base.njk
 section: blog
-pagination:
-  data: collections.post
-  size: 2
-  alias: posts
-  permalink: blog/page-{{ pagination.pageNumber + 1 }}/index.html
 ---
 <section class="w-100 mt4 mt5-ns">
   <article class="mt6 wrap dt bb b--light-gray">
@@ -23,12 +18,3 @@ pagination:
 
 {% set postslist = collections.posts %}
 {% include "components/postslist.njk" %}
-
-<ol>
-{%- for item in pagination.items %}
-  <li>{{ item }}</li>
-{% endfor -%}
-</ol>
-
-{{ pagination.items }}
-{{ pagination.pageNumber }}
