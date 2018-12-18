@@ -6,6 +6,7 @@ tags:
   - shopify
   - design
   - process
+  - post
 ---
 There are so many design processes and here are some that I've personally gone through during my days in startups and companies. Design processes and practices like Design Sprint, Human-Centered Design (HCD) or Holistic Design are all useful, especially to designers who work in Shopify, but not necessarily for those who work on Shopify stores. These designers are constraints by what have been decided for them and it's not a bad thing. 
 

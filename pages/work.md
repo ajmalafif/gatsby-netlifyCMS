@@ -1,6 +1,6 @@
 ---
 layout: layouts/work.njk
-title: Work | @ajmalafif
+title: Experience | @ajmalafif
 tags:
   - nav
 navtitle: Experience
