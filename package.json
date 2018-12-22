@@ -25,7 +25,8 @@
     "@11ty/eleventy": "^0.6.0",
     "luxon": "^1.4.3",
     "markdown-it": "^8.4.1",
-    "markdown-it-anchor": "^4.0.0"
+    "markdown-it-anchor": "^4.0.0",
+    "tachyons": "^4.11.1"
   },
   "dependencies": {
     "clean-css": "^4.1.11",
