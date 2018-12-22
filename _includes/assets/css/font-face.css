@@ -2,7 +2,7 @@
   font-family: 'Inter UI';
   font-style:  normal;
   font-weight: 400;
-  font-display: fallback;
+  font-display: swap;
   src: url("/static/font/Inter-UI-Regular.woff2") format("woff2"),
        url("/static/font/Inter-UI-Regular.woff") format("woff");
 }
@@ -10,7 +10,7 @@
   font-family: 'Inter UI';
   font-style:  italic;
   font-weight: 400;
-  font-display: fallback;
+  font-display: swap;
   src: url("/static/font/Inter-UI-Italic.woff2") format("woff2"),
        url("/static/font/Inter-UI-Italic.woff") format("woff");
 }
@@ -19,7 +19,7 @@
   font-family: 'Inter UI';
   font-style:  normal;
   font-weight: 500;
-  font-display: fallback;
+  font-display: swap;
   src: url("/static/font/Inter-UI-Medium.woff2") format("woff2"),
        url("/static/font/Inter-UI-Medium.woff") format("woff");
 }
@@ -27,7 +27,7 @@
   font-family: 'Inter UI';
   font-style:  italic;
   font-weight: 500;
-  font-display: fallback;
+  font-display: swap;
   src: url("/static/font/Inter-UI-MediumItalic.woff2") format("woff2"),
        url("/static/font/Inter-UI-MediumItalic.woff") format("woff");
 }
@@ -36,7 +36,7 @@
   font-family: 'Inter UI';
   font-style:  normal;
   font-weight: 600;
-  font-display: fallback;
+  font-display: swap;
   src: url("/static/font/Inter-UI-SemiBold.woff2") format("woff2"),
        url("/static/font/Inter-UI-SemiBold.woff") format("woff");
 }
@@ -44,7 +44,7 @@
   font-family: 'Inter UI';
   font-style:  italic;
   font-weight: 600;
-  font-display: fallback;
+  font-display: swap;
   src: url("/static/font/Inter-UI-SemiBoldItalic.woff2") format("woff2"),
        url("/static/font/Inter-UI-SemiBoldItalic.woff") format("woff");
 }
@@ -53,7 +53,7 @@
   font-family: 'Inter UI';
   font-style:  normal;
   font-weight: 700;
-  font-display: fallback;
+  font-display: swap;
   src: url("/static/font/Inter-UI-Bold.woff2") format("woff2"),
        url("/static/font/Inter-UI-Bold.woff") format("woff");
 }
@@ -61,7 +61,7 @@
   font-family: 'Inter UI';
   font-style:  italic;
   font-weight: 700;
-  font-display: fallback;
+  font-display: swap;
   src: url("/static/font/Inter-UI-BoldItalic.woff2") format("woff2"),
        url("/static/font/Inter-UI-BoldItalic.woff") format("woff");
 }
@@ -70,7 +70,7 @@
   font-family: 'Inter UI';
   font-style:  normal;
   font-weight: 800;
-  font-display: fallback;
+  font-display: swap;
   src: url("/static/font/Inter-UI-ExtraBold.woff2") format("woff2"),
        url("/static/font/Inter-UI-ExtraBold.woff") format("woff");
 }
@@ -78,7 +78,7 @@
   font-family: 'Inter UI';
   font-style:  italic;
   font-weight: 800;
-  font-display: fallback;
+  font-display: swap;
   src: url("/static/font/Inter-UI-ExtraBoldItalic.woff2") format("woff2"),
        url("/static/font/Inter-UI-ExtraBoldItalic.woff") format("woff");
 }
@@ -87,7 +87,7 @@
   font-family: 'Inter UI';
   font-style:  normal;
   font-weight: 900;
-  font-display: fallback;
+  font-display: swap;
   src: url("/static/font/Inter-UI-Black.woff2") format("woff2"),
        url("/static/font/Inter-UI-Black.woff") format("woff");
 }
@@ -95,7 +95,7 @@
   font-family: 'Inter UI';
   font-style:  italic;
   font-weight: 900;
-  font-display: fallback;
+  font-display: swap;
   src: url("/static/font/Inter-UI-BlackItalic.woff2") format("woff2"),
        url("/static/font/Inter-UI-BlackItalic.woff") format("woff");
 }
@@ -124,7 +124,7 @@ BUGS:
   font-family: 'Inter UI var';
   font-weight: 400 900;
   font-style: oblique 0deg 10deg;
-  font-display: fallback;
+  font-display: swap;
   src: url("/static/font/Inter-UI.var.woff2") format("woff2-variations"),
        url("/static/font/Inter-UI.var.woff2") format("woff2");
 }
@@ -145,7 +145,7 @@ BUGS:
   font-weight: 400 900;
   font-style: normal;
   font-named-instance: 'Regular';
-  font-display: fallback;
+  font-display: swap;
   src: url("/static/font/Inter-UI-upright.var.woff2") format("woff2 supports variations(gvar)"),
        url("/static/font/Inter-UI-upright.var.woff2") format("woff2-variations"),
        url("/static/font/Inter-UI-upright.var.woff2") format("woff2");
@@ -155,7 +155,7 @@ BUGS:
   font-weight: 400 900;
   font-style: italic;
   font-named-instance: 'Italic';
-  font-display: fallback;
+  font-display: swap;
   src: url("/static/font/Inter-UI-italic.var.woff2") format("woff2 supports variations(gvar)"),
        url("/static/font/Inter-UI-italic.var.woff2") format("woff2-variations"),
        url("/static/font/Inter-UI-italic.var.woff2") format("woff2");
