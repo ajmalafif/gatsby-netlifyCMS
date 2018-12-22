@@ -5,8 +5,5 @@ tags:
   - nav
 navtitle: Blog
 date: 2017-01-01
-pagination:
-  data: collections.posts
-  size: 3
-  alias: postslist
+permalink: /blog/index.html
 ---
