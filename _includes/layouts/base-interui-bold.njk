@@ -4,11 +4,9 @@
 	{% include "components/head-interui-bold.njk" %}
 
 	<body{% if section %} class="{{ section }}"{% endif %}>
-
-		{% include "components/nav.njk" %}
-
-		{{ layoutContent | safe }}
-
+    {% include "components/nav.njk" %}
+    {{ layoutContent | safe }}
+    {% include "components/footer.njk" %}
 	</body>
 
 </html>

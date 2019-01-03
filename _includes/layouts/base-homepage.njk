@@ -6,6 +6,7 @@
 	<body{% if section %} class="{{ section }}"{% endif %}>
     {% include "components/nav-homepage.njk" %}
     {{ layoutContent | safe }}
+	{% include "components/footer-homepage.njk" %}
 	</body>
 
 </html>
