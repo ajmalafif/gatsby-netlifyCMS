@@ -16,7 +16,13 @@ section: about
     <div class="bt b--light-gray mt4 mb4"></div>
     <h3>Contact me</h3>
     <p>
-    <form name="contact" method="POST" netlify>
+    <form 
+    name="contact" 
+    method="POST" 
+    netlify-honeypot="bot-field"
+    netlify
+    >
+    <input hidden className="hidden" name="bot-field" />
     <label class="db gray lh-copy f6 " for="name">Name</label>
     <input class="pa2 input-reset ba b--moon-gray bg-transparent w-100 mb3" type="text" name="name" id="name" autocomplete="name" placeholder="Your name" title="Please enter your name" required>
     <label class="db gray lh-copy f6 " for="email">Email</label>
