@@ -3,7 +3,7 @@
 
 	{% include "components/head.njk" %}
 
-	<body{% if section %} class="{{ section }}"{% endif %}>
+	<body{% if section %} class="{{ section }} ph4-ns"{% endif %}>
     {% include "components/nav-homepage.njk" %}
     {{ layoutContent | safe }}
 	{% include "components/footer-homepage.njk" %}
