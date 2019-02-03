@@ -3,5 +3,7 @@
   Link: <*.js>; rel=preload; as=script
   Link: <*.jpg>; rel=preload; as=image
   Link: <*.png>; rel=preload; as=image
-/*.js
+/gtag/js
+	Cache-Control: public, max-age=360000
+/analytics.js
 	Cache-Control: public, max-age=360000
