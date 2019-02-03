@@ -3,3 +3,5 @@
   Link: <*.js>; rel=preload; as=script
   Link: <*.jpg>; rel=preload; as=image
   Link: <*.png>; rel=preload; as=image
+/*.js
+	Cache-Control: public, max-age=360000
