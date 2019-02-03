@@ -25,6 +25,10 @@ h3 {
   font-weight: normal;
 }
 
+header {
+  max-height: 86px;
+}
+
 header a[data-current*="current"] {
   color: #05f;
   font-weight: 600;
