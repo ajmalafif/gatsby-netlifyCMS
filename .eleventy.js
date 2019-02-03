@@ -2,10 +2,15 @@ const { DateTime } = require("luxon");
 const CleanCSS = require("clean-css");
 const UglifyJS = require("uglify-js");
 const htmlmin = require("html-minifier");
+const pluginPWA = require("eleventy-plugin-pwa");
 
 module.exports = function(eleventyConfig) {
 
   eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
+
+  eleventyConfig.addPlugin(pluginPWA);
+
+  eleventyConfig.addPassthroughCopy("manifest.json");
 
   // Date formatting (human readable)
   eleventyConfig.addFilter("readableDate", dateObj => {

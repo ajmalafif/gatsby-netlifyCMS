@@ -2,6 +2,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="/static/img/favicon@2x.png" type="image/png">
+  <link rel="manifest" href="/manifest.json" />
   <!-- Primary Meta Tags -->
   <title>{{ title or metadata.title }}</title>
   <meta name="title" content="Ajmal Afif – UX Designer ">
@@ -40,6 +41,16 @@
 
     gtag('config', 'UA-131743011-3');
   </script>
+  <script>
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker
+      .register("/service-worker.js")
+      .then(function() {
+        console.log("ServiceWorker has been registered!");
+      })
+      .catch(console.error);
+  }
+</script>
 
   {# An optional javascript pipeline; outputs minified JS into <head>
   {% set js %}

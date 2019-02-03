@@ -23,6 +23,7 @@
   "homepage": "https://github.com/danurbanowicz/eleventy-netlify-boilerplate",
   "devDependencies": {
     "@11ty/eleventy": "^0.6.0",
+    "eleventy-plugin-pwa": "^1.0.6",
     "inter-ui": "^3.1.0",
     "luxon": "^1.4.3",
     "markdown-it": "^8.4.1",
