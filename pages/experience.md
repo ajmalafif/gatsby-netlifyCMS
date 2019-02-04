@@ -1,5 +1,5 @@
 ---
-layout: layouts/work.njk
+layout: layouts/experience.njk
 title: Experience | @ajmalafif
 tags:
   - nav
