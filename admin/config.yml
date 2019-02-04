@@ -3,7 +3,9 @@ backend:
   branch: master # Branch to update (optional; defaults to master)
 
 # Uncomment below to enable drafts
+display_url: https://ajmalafif.design
 publish_mode: editorial_workflow
+logo_url: https://ajmalafif.design/static/img/favicon@3x.png
 
 media_folder: 'static/img' # Media files will be stored in the repo under images/uploads
 
