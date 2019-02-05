@@ -27,6 +27,7 @@ h3 {
 
 header a[data-current*="current"] {
   color: #05f;
+  background-color: rgba(0,85,255,.03);
   font-weight: 600;
 }
 
@@ -70,6 +71,7 @@ ul {
 .blog article .link,
 .blog article .link:visited {
   color: #000;
+  background-color: rgba(0, 0, 0, 0.03);
 }
 
 .logo {

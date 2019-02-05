@@ -7,8 +7,6 @@ tags:
   - design
   - post
 ---
-![](/static/img/data.jpg)
-
 The idea of redesigning a website can be scary and daunting. Not to mention the resources and cost that come with it. Before going on a risky journey of redesign, especially if it's something that might break or make your store, I suggest you reconsider your approach with it.
 
 ### Incremental changes & tweaks

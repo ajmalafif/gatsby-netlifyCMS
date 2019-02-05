@@ -6,13 +6,13 @@ section: blog
 <article class="mb6">
 
   <div class=" wrap tc">
-    <h1 class=" tc pt4 pt5-ns mb3">{{ title }}</h1>
+    <h1 class=" tc pt3 pt5-ns mt0 mb3 f4 f2-ns lh-solid">{{ title }}</h1>
       <small class="gray">
         <time datetime="{{ date | machineDate }}">{{ date | readableDate }}</time> by {{ metadata.author.name }}
       </small>
   </div>
 
-  <div class=" wrap mw12 pa3 pa0-ns">
+  <div class=" wrap mw12">
     <div class=" center measure-wide lh-copy">
       {{ layoutContent | safe }}
 
