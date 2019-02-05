@@ -28,6 +28,7 @@ h3 {
 header a[data-current*="current"] {
   color: #05f;
   background-color: rgba(0,85,255,.03);
+  border-bottom: 1px solid rgba(0,85,255, 0.1);
   font-weight: 600;
 }
 
@@ -36,10 +37,6 @@ nav a:hover,
 .blog article a.link:hover,
 .post article a:hover {
   color: #05f;
-}
-
-nav li:last-child {
-  margin-right: 0;
 }
 
 ul {
@@ -101,4 +98,14 @@ a.bg-secondary {
 a.bg-secondary:focus,
 a.bg-secondary:hover {
   background-color: rgb(0, 85, 255, 0.09);
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 48em) {
+  nav li:last-child {
+    margin-right: 0.5rem;
+  }
 }
