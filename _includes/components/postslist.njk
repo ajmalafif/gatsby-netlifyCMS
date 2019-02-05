@@ -1,8 +1,8 @@
-<section class="w-100 dt mt3 mt4-ns">
+<section class="w-100 dt mt4">
 	{% for post in postslist | reverse %}
 		<article class="wrap" {% if post.url == url %} data-current="current item"{% endif %}>
 			<div class="w-70-ns ph4 ph0-ns mb5">		
-				<h3 class="lh-title mb1 blue">
+				<h3 class="lh-title mb1 blue mt0">
 					<a class="link fw6" href="{{ post.url | url }}">
 						{% if post.data.title %}
 							{{ post.data.title }} →
