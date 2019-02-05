@@ -5,9 +5,9 @@
       <a class="dark-gray link logo fw6" href="/" title="Home">@ajmalafif</a>
       </h1>
     </div>
-    <ul class="dib w-100 w-75-ns tr-ns tc mt3 mt0-ns">
+    <ul class="dib w-100 w-75-ns tr-ns tc mt4 mt0-ns">
       {%- for nav in collections.nav | sort(attribute="date") -%}
-      <li class="f5 dib mr4 mr4-ns"><a class="link dark-gray" href="{{ nav.url | url }}"{% if nav.url == page.url %} data-current="current"{% endif %}>{{ nav.data.navtitle }}</a></li>
+      <li class="f5 dib mr4"><a class="link dark-gray" href="{{ nav.url | url }}"{% if nav.url == page.url %} data-current="current"{% endif %}>{{ nav.data.navtitle }}</a></li>
       {%- endfor -%}
     </ul>
   </nav>
