@@ -104,7 +104,7 @@ nav li:last-child {
   margin-right: 0;
 }
 
-@media screen and (max-width: 48em) {
+@media screen and (max-width: 30em) {
   nav li:last-child {
     margin-right: 0.5rem;
   }
