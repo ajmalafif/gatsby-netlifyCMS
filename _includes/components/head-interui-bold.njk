@@ -35,15 +35,7 @@
   <style>{{ css | cssmin | safe }}</style>
 
   {# Global site tag (gtag.js) - Google Analytics #}
-  <script src="/static/js/analytics.js"></script>
-  {# <script>
-    var ga = ga || function(){
-      ga.q = ga.q || [];
-      ga.q.push(arguments);
-    };
-    ga.l = 1 * new Date();
-    ga('config', 'UA-131743011-3', 'auto');
-  </script> #}
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131743011-3"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
