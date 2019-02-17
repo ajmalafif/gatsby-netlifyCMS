@@ -35,13 +35,14 @@
   <style>{{ css | cssmin | safe }}</style>
 
   {# Global site tag (gtag.js) - Google Analytics #}
-  <script src="https://www.googletagmanager.com/gtag/js?id=UA-131743011-3"></script>
+  <script src="/static/js/analytics.js"></script>
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-131743011-3');
+    var ga = ga || function(){
+      ga.q = ga.q || [];
+      ga.q.push(arguments);
+    };
+    ga.l = 1 * new Date();
+    ga('config', 'UA-131743011-3', 'auto');
   </script>
 
   {# An optional javascript pipeline; outputs minified JS into <head>
