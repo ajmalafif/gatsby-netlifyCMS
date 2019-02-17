@@ -35,21 +35,21 @@
 
   {# Global site tag (gtag.js) - Google Analytics #}
   <script src="/static/js/analytics.js"></script>
-  <script>
+  {# <script>
     var ga = ga || function(){
       ga.q = ga.q || [];
       ga.q.push(arguments);
     };
     ga.l = 1 * new Date();
     ga('config', 'UA-131743011-3', 'auto');
-  </script>
-  {# <script>
+    </script> #}
+  <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
     gtag('config', 'UA-131743011-3');
-  </script> #}
+  </script>
   {# <script defer>
   if ("serviceWorker" in navigator) {
     navigator.serviceWorker
